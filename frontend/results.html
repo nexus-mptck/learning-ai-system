@@ -1,0 +1,9 @@
+<h2>AI Result</h2>
+<div id="out"></div>
+<script>
+const r = JSON.parse(localStorage.getItem("result"));
+out.innerHTML = `
+ADHD: ${r.ADHD}<br>
+Dyslexia: ${r.Dyslexia}<br>
+Dyscalculia: ${r.Dyscalculia}`;
+</script>
